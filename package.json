@@ -1,0 +1,26 @@
+{
+  "name": "EnergyDrinkRater-BE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorianl001/EnergyDrinkRater-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorianl001/EnergyDrinkRater-BE/issues"
+  },
+  "homepage": "https://github.com/dorianl001/EnergyDrinkRater-BE#readme",
+  "dependencies": {
+    "expresss": "^0.0.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.11.18",
+    "nodemon": "^2.0.7"
+  }
+}
