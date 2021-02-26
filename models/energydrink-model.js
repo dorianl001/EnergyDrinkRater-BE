@@ -1,5 +1,5 @@
 const mongoose = require('../db/connections')
-const beverageSchema = new mongoose.Schema(
+const energyDrinkSchema = new mongoose.Schema(
     {
         ID: Number,
         Brand: String,
@@ -8,5 +8,5 @@ const beverageSchema = new mongoose.Schema(
         Stats: String
     }
 );
-const Beverage = mongoose.model('Beverage', beverageSchema);
-module.exports = Beverage;
+const energyDrink = mongoose.model('energyDrink', energyDrinkSchema);
+module.exports = energyDrink;

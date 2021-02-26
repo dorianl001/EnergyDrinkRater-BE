@@ -1,0 +1,30 @@
+[
+    {
+      "ID": "01",
+      "Brand": "Redbull",
+      "Flavor": "Original Red Bull",
+      "Image": "https://www.redbull.com/energydrink/v1/resources/contentful/images/lcr8qbvxj7mh/4zFjQdAdRWCv4cOF4dUTAD/2be1748896e6eaf9a3b2ff0bdc6fa008/US_RBED_250_Single_Unit_close_ambient_ORIGINAL_DRES.png?w=210&h=543&fm=webp&fit=fill&q=90s",
+      "Stats": "Total Caffeine: 80 mg Per Serving, 8.4 fl.oz Per can"
+    },
+    {
+      "ID": "02",
+      "Brand": "Bang Energy",
+      "Flavor": "Bangster Berry",
+      "Image": "https://bangenergy.com/wp-content/uploads/2020/05/Bang-RTD-16oz-Bangster-Berry-12-Pack-Tray-3D-Render-600x600.jpg",
+      "Stats": "Food"
+    },
+    {
+      "ID": "03",
+      "Brand": "Monster",
+      "Flavor": "The Original Green Monster Energy",
+      "Image": "https://www.monsterenergy.com/media/uploads_image/2016/06/29/auto/800/bcb6f88a32b129ab21b45947476a62a8.png?mod=v1_be158153294a1fdb2f8b5e8ac3ce177d",
+      "Stats": "Total Caffeine: 80 mg Per Serving, 16 fl.oz Per Can"
+    },
+    {
+      "ID": "04",
+      "Brand": "Reign",
+      "Flavor": "True Blu",
+      "Image": "https://web-assests.monsterenergy.com/mnst/c160ce21-d8f0-4280-aba3-af6c4963b1c3.webp",
+      "Stats": "Total Caffeine: 300mg Per Serving, 16fl.oz Per Can"
+    }
+  ]
