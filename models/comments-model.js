@@ -1,8 +1,8 @@
 const mongoose = require('../db/connections');
 const commentSchema = new mongoose.Schema(
     {
-        ID: String,
-        Date: Date,
+        ID: Number,
+        Date: String,
         Username: String,
         TextField: String
     }

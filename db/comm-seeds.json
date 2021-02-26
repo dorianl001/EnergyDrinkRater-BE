@@ -1,25 +1,25 @@
 [
     {
-        "ID": "01",
-        "Date": "Numbers",
+        "ID": 1,
+        "Date": "String",
         "Username": "String",
         "TextField": "String"
     },
     {
-        "ID": "02",
-        "Date": "Numbers",
+        "ID": 2,
+        "Date": "String",
         "Username": "String",
         "TextField": "String"
     },
     {
-        "ID": "03",
-        "Date": "Numbers",
+        "ID": 3,
+        "Date": "String",
         "Username": "String",
         "TextField": "String"
     },
     {
-        "ID": "04",
-        "Date": "Numbers",
+        "ID": 4,
+        "Date": "String",
         "Username": "String",
         "TextField": "String"
     }

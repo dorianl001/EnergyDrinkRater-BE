@@ -1,8 +1,8 @@
 const Comment = require('../models/comments-model');
-const CommSeeds = require('./comment-seeds.json');
+const commSeeds = require('./comm-seeds.json');
 Comment.deleteMany({})
     .then(() => {
-        return Comment.insertMany(CommSeeds)
+        return Comment.insertMany(commSeeds)
     })
     .then(console.log)
     .catch(console.eror)
