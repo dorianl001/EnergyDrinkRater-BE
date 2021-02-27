@@ -1,10 +1,20 @@
 const express = require('express');
 const app = express();
+const commentController = require('./controllers/comments-controller')
+const edrinkController = require('./controllers/edrink-controller')
 
-/* Start Route */
+
 app.use('/', (req, res) => {
     res.send('Express says, Hello!')
 })
+
+//middleware 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }))
+
+/* Start Route */
+app.use('/comment', commentController);
+app.use('/edrink', edrinkController);
 /* End Route */
 
 const port = process.env.PORT || 4000;
