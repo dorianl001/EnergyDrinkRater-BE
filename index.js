@@ -21,8 +21,8 @@ app.use('/comment', commentController);
 app.use('/edrink', edrinkController);
 /* End Route */
 
-const port = process.env.PORT || 4000;
+app.set('port', process.env.PORT || 4000);
 
-app.listen(port, () => {
+app.listen(app.get('port'), () => {
     console.log(`Express is running on port: ${port}`);
 })
