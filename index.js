@@ -3,6 +3,10 @@ const app = express();
 const commentController = require('./controllers/comments-controller')
 const edrinkController = require('./controllers/edrink-controller')
 
+const cors = require("cors");
+
+app.use(cors());
+
 
 app.use('/', (req, res) => {
     res.send('Express says, Hello!')
