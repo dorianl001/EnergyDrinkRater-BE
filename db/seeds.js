@@ -11,4 +11,4 @@ energyDrinks.deleteMany({})
         process.exit();
     })
 
-    // fingers crossed 
+    // fingers crossed, again
