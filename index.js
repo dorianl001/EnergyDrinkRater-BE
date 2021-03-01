@@ -7,14 +7,13 @@ const cors = require("cors");
 
 app.use(cors());
 
+//middleware 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }))
 
 app.use('/', (req, res) => {
     res.send('Express says, Hello!')
 })
-
-//middleware 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }))
 
 /* Start Route */
 app.use('/comment', commentController);
