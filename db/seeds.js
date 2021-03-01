@@ -10,3 +10,5 @@ energyDrinks.deleteMany({})
     .finally(() => {
         process.exit();
     })
+
+    // fingers crossed 
