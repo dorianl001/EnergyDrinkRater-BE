@@ -2,15 +2,14 @@ const express = require('express');
 const app = express();
 const commentController = require('./controllers/comments-controller')
 const edrinkController = require('./controllers/edrink-controller')
+const port = 4000;
 
 const cors = require("cors");
 
 app.use(cors());
 
 
-app.use('/', (req, res) => {
-    res.send('Express says, Hello!')
-})
+
 
 //middleware 
 app.use(express.json());
@@ -21,8 +20,11 @@ app.use('/comment', commentController);
 app.use('/edrink', edrinkController);
 /* End Route */
 
-app.set('port', process.env.PORT || 4000);
+app.use('/', (req, res) => {
+    res.send('Express says, Hello!')
+})
 
-app.listen(app.get('port'), () => {
+app.listen(port, () => {
     console.log(`Express is running on port: ${port}`);
 })
+
