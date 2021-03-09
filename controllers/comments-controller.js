@@ -14,12 +14,12 @@ router.get('/id:', (req, res) => {
 });
 
 //create a new comment 
-router.get('/', (req, res => {
+router.get('/', (req, res) => {
     commRouter
     .create(req.body)
     .then((comment) => res.json(comment))
     .catch(next);
-}));
+});
 
 //update a single comment 
 router.put('/:id', (req, res) => {
